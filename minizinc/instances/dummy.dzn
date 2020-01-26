@@ -1,0 +1,6 @@
+Name = "dummy.txt";
+locX = [1, 2,-1, -2, 30, -30, 0];
+locY = [1, 2,-1, -2, 30, -30, 0];
+Demand = [7, 4, 8, 2, 5, 3];
+NumVehicles = 4;
+Cap = 8;

@@ -1,0 +1,21 @@
+plugins {
+    id 'java'
+}
+
+group 'unibo.cp'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '5.3'
+    testCompile group: 'org.junit.jupiter', name: 'junit-jupiter-api', version: '5.6.0'
+
+    compile group: 'org.choco-solver', name: 'choco-solver', version: '4.10.2'
+
+
+}
